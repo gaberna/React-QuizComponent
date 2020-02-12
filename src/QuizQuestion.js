@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import QuizQuestionButton from "./QuizQuestionButton";
+import QuizEnd from "./QuizEnd";
 
 class QuizQuestion extends Component {
   render() {
@@ -16,6 +17,7 @@ class QuizQuestion extends Component {
               />
             </ul>
           </section>
+          <QuizEnd />
         </main>
       </div>
     );
